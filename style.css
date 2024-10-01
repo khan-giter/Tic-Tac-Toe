@@ -1,0 +1,49 @@
+body{background-color:#F6DCAC;
+    text-align: center;
+}
+
+#container{ display:flex;
+    height:60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainGame{height:50vh;
+    width:50vh;
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5vmin;
+}
+
+.boxes{height:15vmin;
+    width:15vmin;
+    background-color:#FEAE6F;
+    border-radius: 17px;
+    box-shadow:0px 0px 3px rgba(0,0,1,0.3);
+    color:black;
+    font-size: 30px;
+}
+#primaryBox{display:flex;
+    height:400px;
+    justify-content: center;
+    align-items:center;
+}
+#firstBox{background-color:#028391;
+    height:300px;
+    width:300px;
+    border-radius:19px;
+}
+#firstHeading{height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    text-decoration:black underline;
+}
+#label{font-size:20px;}
+
+#reset{background-color:#01204E;
+    height:50px;
+    width:70px;
+    color:white;
+    border-radius:12px;
+ }
